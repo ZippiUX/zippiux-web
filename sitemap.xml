@@ -68,12 +68,7 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://zippiux.com/team-v1.html</loc>
-  <lastmod>2023-05-22T19:36:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://zippiux.com/team-v2.html</loc>
+  <loc>https://zippiux.com/team.html</loc>
   <lastmod>2023-05-22T19:36:18+00:00</lastmod>
   <priority>0.80</priority>
 </url>
@@ -118,17 +113,12 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://zippiux.com/portfolio-v7.html</loc>
-  <lastmod>2023-05-22T19:36:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://zippiux.com/portfolio-details-v1.html</loc>
   <lastmod>2023-05-22T19:36:18+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://zippiux.com/portfolio-details-v2.html</loc>
+  <loc>https://zippiux.com/portfolio-details.html</loc>
   <lastmod>2023-05-22T19:36:18+00:00</lastmod>
   <priority>0.80</priority>
 </url>
