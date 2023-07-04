@@ -9431,7 +9431,7 @@ body .btn-twentySix:hover:after {
   background: var(--prime-ten);
   border-color: var(--prime-ten);
 }
-/*^^^^^^^^^^^^^^^^^^^^^ Portfolio Details Two ^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*^^^^^^^^^^^^^^^^^^^^^ Portfolio details ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .portfolio-details-two #gallery-carousel [class*='carousel-control-'] {
   width: 45px;
   height: 45px;
