@@ -1,10 +1,3 @@
-// js Document
-
-// Created on   : 27/07/2022.
-// Theme Name   : ZippiUX - Creative UX agency
-// Version      : 1.0.
-// Developed by : (me@heloshape.com) / (www.me.heloshape.com)
-
 (function ($) {
   'use strict';
 
