@@ -54,9 +54,9 @@
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag('js', new Date());
+      gtag("js", new Date());
 
-      gtag('config', 'G-CPX6MRE81P');
+      gtag("config", "G-CPX6MRE81P");
     </script>
 
     <!-- Fix Internet Explorer ______________________________________-->
@@ -506,7 +506,7 @@
                   <ul class="footer-nav-link style-none">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="pricing.html">Pricing</a></li>
-                    <li><a href="about-v1.html">About us</a></li>
+                    <li><a href="about.html">About us</a></li>
                     <li><a href="contact-us.html">Work at ZippiUX</a></li>
                     <li><a href="service-v1.html">Features</a></li>
                   </ul>
@@ -615,12 +615,12 @@
 
       <script type="text/javascript">
         (function () {
-          emailjs.init('ztw-iqT4gMxDOqDho');
+          emailjs.init("ztw-iqT4gMxDOqDho");
         })();
 
         document
-          .getElementById('contact-form')
-          .addEventListener('submit', function (event) {
+          .getElementById("contact-form")
+          .addEventListener("submit", function (event) {
             event.preventDefault();
 
             var fname = document.querySelector("input[name='fname']");
@@ -629,7 +629,7 @@
             var message = document.querySelector("textarea[name='message']");
 
             emailjs
-              .send('service_9v0z22o', 'template_9ngs7kl', {
+              .send("service_9v0z22o", "template_9ngs7kl", {
                 fname: fname.value,
                 lname: lname.value,
                 email: email.value,
@@ -637,18 +637,18 @@
               })
               .then(
                 function (response) {
-                  console.log('SUCCESS!', response.status, response.text);
-                  document.getElementById('message').textContent =
-                    'Your message has been sent!';
-                  fname.value = '';
-                  lname.value = '';
-                  email.value = '';
-                  message.value = '';
+                  console.log("SUCCESS!", response.status, response.text);
+                  document.getElementById("message").textContent =
+                    "Your message has been sent!";
+                  fname.value = "";
+                  lname.value = "";
+                  email.value = "";
+                  message.value = "";
                 },
                 function (error) {
-                  console.log('FAILED...', error);
-                  document.getElementById('contact-message').textContent =
-                    'Failed to send message. Please try again later.';
+                  console.log("FAILED...", error);
+                  document.getElementById("contact-message").textContent =
+                    "Failed to send message. Please try again later.";
                 }
               );
           });

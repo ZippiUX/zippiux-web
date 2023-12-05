@@ -1,0 +1,11 @@
+<title> ZippiUX | UX-Webbyrå i Sundsvall </title>
+
+<meta 
+    name="keywords"
+    content="Digital Marketing Agency, Digitalt marknadsföringsbyrå, Creative Digital Design, Kreativ digital design, UX Design Services, UX design-tjänster, Web Development Company, Webbutvecklingsföretag, SEO Experts, SEO-experter, ZippiUX Solutions, ZippiUX-lösningar, Professional Design and Development, Professionell design och utveckling, Innovative UX Agency, Innovativ UX-byrå, Strategic Digital Marketing, Strategisk digital marknadsföring, SEO Optimization Services, SEO-optimeringstjänster"
+/> 
+
+<meta
+    name="description"
+    content="Vi erbjuder helhetslösningar inom ett flertal digitala områden, inklusive SEO, webbdesign, utveckling, copywriting och mer. Stärk din närvaro online med våra specialiserade och personligt anpassade tjänster."
+/>
