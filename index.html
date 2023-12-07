@@ -54,9 +54,9 @@
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag('js', new Date());
+      gtag("js", new Date());
 
-      gtag('config', 'G-CPX6MRE81P');
+      gtag("config", "G-CPX6MRE81P");
     </script>
 
     <!-- Fix Internet Explorer ______________________________________-->
@@ -285,7 +285,7 @@
                       data-bs-toggle="dropdown"
                       data-bs-auto-close="outside"
                       aria-expanded="false"
-                      >Blog</a
+                      >Blogg</a
                     >
                     <ul class="dropdown-menu">
                       <li>
@@ -1128,7 +1128,7 @@
               >
                 <div class="sc-title text-uppercase">Våra partners</div>
                 <h2 class="main-title fw-normal">
-                  Våra partners
+                  Våra sammarbetspartners
                   <span class="d-inline-block position-relative"
                     >stöttar
                     <span
@@ -1321,17 +1321,17 @@
               <div
                 class="title-style-three text-center mb-60 lg-mb-40 wow fadeInUp"
               >
-                <div class="sc-title text-uppercase">Pricng Plan</div>
+                <div class="sc-title text-uppercase">Prisplan</div>
                 <h2 class="main-title fw-normal">
-                  No hidden charges!
+                  Inga dolda avgifter!
                   <span class="d-inline-block position-relative"
-                    >choose
+                    >välj
                     <span
                       class="mark-bg"
                       style="background-color: #ffe1fb"
                     ></span
                   ></span>
-                  your plan.
+                  din plan.
                 </h2>
               </div>
               <!-- /.title-style-three -->
@@ -1350,7 +1350,7 @@
                 type="button"
                 role="tab"
               >
-                Hourly rate
+                Årsvis
               </button>
             </li>
             <li class="nav-item" role="presentation">
@@ -1361,7 +1361,7 @@
                 type="button"
                 role="tab"
               >
-                Project
+                Månade
               </button>
             </li>
           </ul>
@@ -1371,7 +1371,7 @@
           >
             <div class="tab-content">
               <div class="tab-pane show active" id="hour">
-                <h4>Hourly</h4>
+                <h4>Årsvis</h4>
                 <p>
                   Opt for our hourly web services for a flexible, efficient
                   approach. Get high-quality results, delivered on time, while
@@ -1535,7 +1535,7 @@
                 </div>
               </div>
               <div class="tab-pane" id="project">
-                <h4>Per project</h4>
+                <h4>Månadsvis</h4>
                 <p>
                   Choose our project-to-project services for distinct,
                   individual attention to each task. Receive superior quality
@@ -1940,33 +1940,33 @@
 
       <script type="text/javascript">
         (function () {
-          emailjs.init('ztw-iqT4gMxDOqDho'); // Initialize EmailJS with your public key
+          emailjs.init("ztw-iqT4gMxDOqDho"); // Initialize EmailJS with your public key
         })();
 
         document
-          .getElementById('newsletter-form')
-          .addEventListener('submit', function (event) {
+          .getElementById("newsletter-form")
+          .addEventListener("submit", function (event) {
             event.preventDefault();
 
-            var email = document.getElementById('newsletter-email');
+            var email = document.getElementById("newsletter-email");
 
             emailjs
-              .send('service_9v0z22o', 'template_dqc9z7o', {
+              .send("service_9v0z22o", "template_dqc9z7o", {
                 // Now using 'template_dqc9z7o' for the newsletter signup
                 email: email.value,
-                message: 'A new user has joined the newsletter.',
+                message: "A new user has joined the newsletter.",
               })
               .then(
                 function (response) {
-                  console.log('SUCCESS!', response.status, response.text);
-                  document.getElementById('newsletter-message').textContent =
-                    'You have successfully joined the newsletter!';
-                  email.value = '';
+                  console.log("SUCCESS!", response.status, response.text);
+                  document.getElementById("newsletter-message").textContent =
+                    "You have successfully joined the newsletter!";
+                  email.value = "";
                 },
                 function (error) {
-                  console.log('FAILED...', error);
-                  document.getElementById('newsletter-message').textContent =
-                    'Failed to join the newsletter. Please try again later.';
+                  console.log("FAILED...", error);
+                  document.getElementById("newsletter-message").textContent =
+                    "Failed to join the newsletter. Please try again later.";
                 }
               );
           });
