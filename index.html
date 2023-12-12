@@ -54,9 +54,9 @@
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag("js", new Date());
+      gtag('js', new Date());
 
-      gtag("config", "G-CPX6MRE81P");
+      gtag('config', 'G-CPX6MRE81P');
     </script>
 
     <!-- Fix Internet Explorer ______________________________________-->
@@ -1227,7 +1227,7 @@
                       <div class="col-md-4 pr-column sm-mb-20">
                         <div class="pr-header">
                           <div class="plan">Silver (3% rabatt)</div>
-                      
+
                           <div class="price">1149 kr</div>
                           <div class="info">Bra för individuella personer</div>
                         </div>
@@ -1489,8 +1489,17 @@
                     >kontakt@zippiux.com</a
                   >
                   <br />
-                  <a href="tel:0705121830" class="mobile tran3s fs-20 fw-500"
+                  <a
+                    href="tel:0705121830"
+                    target="_blank"
+                    class="mobile tran3s fs-20 fw-500"
                     >Telefon: 070-512 18 30</a
+                  >
+                  <a
+                    href="https://www.google.com/maps/place/NTI+Gymnasiet+Sundsvall/@62.3904315,17.3053495,15z/data=!4m2!3m1!1s0x0:0x23c738a14bb9d713"
+                    target="_blank"
+                    class="mobile tran3s fs-20 fw-500"
+                    >Adress: Kyrkogatan 21, 852 32 Sundsvall</a
                   >
                 </div>
                 <div class="col-lg-3 col-sm-4 ms-auto mb-30">
@@ -1619,33 +1628,33 @@
 
       <script type="text/javascript">
         (function () {
-          emailjs.init("ztw-iqT4gMxDOqDho"); // Initialize EmailJS with your public key
+          emailjs.init('ztw-iqT4gMxDOqDho'); // Initialize EmailJS with your public key
         })();
 
         document
-          .getElementById("newsletter-form")
-          .addEventListener("submit", function (event) {
+          .getElementById('newsletter-form')
+          .addEventListener('submit', function (event) {
             event.preventDefault();
 
-            var email = document.getElementById("newsletter-email");
+            var email = document.getElementById('newsletter-email');
 
             emailjs
-              .send("service_9v0z22o", "template_dqc9z7o", {
+              .send('service_9v0z22o', 'template_dqc9z7o', {
                 // Now using 'template_dqc9z7o' for the newsletter signup
                 email: email.value,
-                message: "A new user has joined the newsletter.",
+                message: 'A new user has joined the newsletter.',
               })
               .then(
                 function (response) {
-                  console.log("SUCCESS!", response.status, response.text);
-                  document.getElementById("newsletter-message").textContent =
-                    "You have successfully joined the newsletter!";
-                  email.value = "";
+                  console.log('SUCCESS!', response.status, response.text);
+                  document.getElementById('newsletter-message').textContent =
+                    'You have successfully joined the newsletter!';
+                  email.value = '';
                 },
                 function (error) {
-                  console.log("FAILED...", error);
-                  document.getElementById("newsletter-message").textContent =
-                    "Failed to join the newsletter. Please try again later.";
+                  console.log('FAILED...', error);
+                  document.getElementById('newsletter-message').textContent =
+                    'Failed to join the newsletter. Please try again later.';
                 }
               );
           });
