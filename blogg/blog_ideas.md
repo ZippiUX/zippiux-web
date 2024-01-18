@@ -2,7 +2,7 @@
 
 ## Ett komplett blogginlägg varannan vecka vilket betyder att 17st blogginlägg hinner bli klara tills lansering.
 
-1. Vad är SEO?
+1. Vad är SEO och SERP?
 2. Hur fungerar backups och säkerhetskopieringar?
 3. Behöver man backups och säkerhetskopieringar?
 4. Hur viktig är en bra design för en hemsida?
