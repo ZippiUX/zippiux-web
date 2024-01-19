@@ -1,77 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
   <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ZippiUX - Din UX-Webbyrå i Sundsvall</title>
-    <link rel="icon" href="./images/favicon.png" />
+    <link rel="icon" href="./media/favicon.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- Font Awesome icons (free version)-->
     <script
       src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"
       crossorigin="anonymous"
     ></script>
-    <!-- Google fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap"
-      rel="stylesheet"
-    />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- Background Video-->
-    <video
-      class="bg-video"
-      playsinline="playsinline"
-      autoplay="autoplay"
-      muted="muted"
-      loop="loop"
-    >
-      <source src="assets/mp4/zippiux_pomo.mp4" type="video/mp4" />
-    </video>
-    <!-- Masthead-->
-    <div class="masthead">
-      <div class="masthead-content text-white">
-        <div class="container-fluid px-4 px-lg-0">
-          <h1 class="fst-italic lh-1 mb-4">Våran hemsida kommer snart!</h1>
-          <h3>Hemsidan estimeras att vara klar <mark>2024-03-01</mark></h3>
-          <p class="mb-5">
-            Vi arbetar hårt för att bli klar med utvecklingen av hemsidan så snart som möjligt men vi vill försäkra oss om att lanseringen går så bra som möjligt.
-          </p>
-          <p>
-            Om du har några frågar, maila oss gärna på
-            <mark>pontushenrikssn@gmail.com</mark>.
-          </p>
+    <div class="container">
+      <div class="content-box">
+        <h1>Våran hemsida kommer snart!</h1>
+        <div id="countdown" class="countdown">
+          <div class="time-box">
+            <span id="days" class="number"></span
+            ><span class="label">dagar</span>
+          </div>
+          <div class="time-box">
+            <span id="hours" class="number"></span
+            ><span class="label">timmar</span>
+          </div>
+          <div class="time-box">
+            <span id="minutes" class="number"></span
+            ><span class="label">minuter</span>
+          </div>
+          <div class="time-box">
+            <span id="seconds" class="number"></span
+            ><span class="label">sekunder</span>
+          </div>
         </div>
+        <p>
+          Just nu är vår webbplats under en liten skönhetsoperation – vi jobbar
+          hårt för att allt ska vara perfekt vid lanseringen. Tack för ditt
+          tålamod medan vi programmerar, designar och ibland bara stirrar på
+          koden och undrar varför den inte fungerar som den ska. Vi lovar att
+          väntan kommer att vara värt det! Snart är vi tillbaka, bättre och
+          snabbare än en 404-sida på en dålig internetdag.
+        </p>
+        <p class="contact-info">
+          Om du har några frågor, maila oss gärna på
+          <a href="mailto:pontus@henriksson.space">pontus@henriksson.space</a>.
+        </p>
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/ZippiUX/"
+              ><i class="social-media-link fa-brands fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/zippiux/"
+              ><i class="social-media-link fa-brands fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/zippiux/"
+              ><i class="social-media-link fa-brands fa-twitter"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/company/zippiux/"
+              ><i class="social-media-link fa-brands fa-linkedin"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com/ZippiUX"
+              ><i class="social-media-link fa-brands fa-github"></i
+            ></a>
+          </li>
+        </ul>
       </div>
     </div>
-    <!-- Social Icons-->
-    <!-- For more icon options, visit https://fontawesome.com/icons?d=gallery&p=2&s=brands-->
-    <div class="social-icons">
-      <div
-        class="d-flex flex-row flex-lg-column justify-content-center align-items-center h-100 mt-3 mt-lg-0"
-      >
-        <a class="btn btn-dark m-3" href="mailto:pontus@zippiux.com"
-          ><i class="fa-solid fa-envelope"></i
-        ></a>
-        <a class="btn btn-dark m-3" href="https://www.instagram.com/@zippiux"
-          ><i class="fab fa-instagram"></i
-        ></a>
-      </div>
-    </div>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
