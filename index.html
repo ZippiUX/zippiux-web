@@ -3,13 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ZippiUX - Din innovativa UX-webbyrå i Sundsvall som förbättrar din digitala närvaro."
+    />
+    <meta
+      name="keywords"
+      content="ZippiUX, UX Design, Webbyrå, Sundsvall, Web Design, User Experience"
+    />
+    <meta name="author" content="ZippiUX och Pontus Henriksson" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.zippiux.com/" />
+    <meta property="og:title" content="ZippiUX - Din UX-Webbyrå i Sundsvall" />
+    <meta
+      property="og:description"
+      content="ZippiUX - Din innovativa UX-webbyrå i Sundsvall som förbättrar din digitala närvaro."
+    />
+    <meta
+      property="og:image"
+      content="https://www.zippiux.com/media/preview.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://www.zippiux.com/" />
+    <meta
+      property="twitter:title"
+      content="ZippiUX - Din UX-Webbyrå i Sundsvall"
+    />
+    <meta
+      property="twitter:description"
+      content="ZippiUX - Din innovativa UX-webbyrå i Sundsvall som förbättrar din digitala närvaro."
+    />
+    <meta
+      property="twitter:image"
+      content="https://www.zippiux.com/media/preview.png"
+    />
+
     <title>ZippiUX - Din UX-Webbyrå i Sundsvall</title>
     <link rel="icon" href="./media/favicon.png" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Font Awesome icons (free version)-->
     <script
       src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"
       crossorigin="anonymous"
@@ -17,27 +51,30 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
+    <header class="container">
+      <!-- Main content box -->
       <div class="content-box">
         <h1>Våran hemsida kommer snart!</h1>
+        <!-- Countdown timer -->
         <div id="countdown" class="countdown">
           <div class="time-box">
-            <span id="days" class="number"></span
-            ><span class="label">dagar</span>
+            <span id="days" class="number"></span>
+            <span class="label">dagar</span>
           </div>
           <div class="time-box">
-            <span id="hours" class="number"></span
-            ><span class="label">timmar</span>
+            <span id="hours" class="number"></span>
+            <span class="label">timmar</span>
           </div>
           <div class="time-box">
-            <span id="minutes" class="number"></span
-            ><span class="label">minuter</span>
+            <span id="minutes" class="number"></span>
+            <span class="label">minuter</span>
           </div>
           <div class="time-box">
-            <span id="seconds" class="number"></span
-            ><span class="label">sekunder</span>
+            <span id="seconds" class="number"></span>
+            <span class="label">sekunder</span>
           </div>
         </div>
+        <!-- Site information and contact -->
         <p>
           Just nu är vår webbplats under en liten skönhetsoperation – vi jobbar
           hårt för att allt ska vara perfekt vid lanseringen. Tack för ditt
@@ -50,35 +87,53 @@
           Om du har några frågor, maila oss gärna på
           <a href="mailto:pontus@henriksson.space">pontus@henriksson.space</a>.
         </p>
-        <ul>
-          <li>
-            <a href="https://www.instagram.com/ZippiUX/"
-              ><i class="social-media-link fa-brands fa-instagram"></i
-            ></a>
-          </li>
-          <li>
-            <a href="https://www.facebook.com/zippiux/"
-              ><i class="social-media-link fa-brands fa-facebook"></i
-            ></a>
-          </li>
-          <li>
-            <a href="https://twitter.com/zippiux/"
-              ><i class="social-media-link fa-brands fa-twitter"></i
-            ></a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/company/zippiux/"
-              ><i class="social-media-link fa-brands fa-linkedin"></i
-            ></a>
-          </li>
-          <li>
-            <a href="https://github.com/ZippiUX"
-              ><i class="social-media-link fa-brands fa-github"></i
-            ></a>
-          </li>
-        </ul>
+        <!-- Social media links -->
+        <nav>
+          <ul>
+            <li>
+              <a href="https://www.instagram.com/ZippiUX/">
+                <i
+                  class="social-media-link fa-brands fa-instagram"
+                  aria-hidden="true"
+                ></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/zippiux/">
+                <i
+                  class="social-media-link fa-brands fa-facebook"
+                  aria-hidden="true"
+                ></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/zippiux/">
+                <i
+                  class="social-media-link fa-brands fa-twitter"
+                  aria-hidden="true"
+                ></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/company/zippiux/">
+                <i
+                  class="social-media-link fa-brands fa-linkedin"
+                  aria-hidden="true"
+                ></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/ZippiUX">
+                <i
+                  class="social-media-link fa-brands fa-github"
+                  aria-hidden="true"
+                ></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
       </div>
-    </div>
+    </header>
     <script src="script.js"></script>
   </body>
 </html>
