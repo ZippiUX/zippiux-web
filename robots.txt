@@ -1,2 +1,5 @@
 User-agent: *
-Disallow: 
+Disallow: /service-details.html
+Disallow: /recensioner.html
+Disallow: /portfolio.html
+Disallow: /portfolio-details.html
