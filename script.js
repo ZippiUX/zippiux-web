@@ -1,6 +1,6 @@
 // Executes when the DOM is fully loaded
 document.addEventListener('DOMContentLoaded', () => {
-  const endDate = new Date('2024-03-01T12:00:00+01:00').getTime();
+  const endDate = new Date('2024-05-01T12:00:00+02:00').getTime(); // Sommartid 31 mars
   const countdownInterval = 1000; // Interval set to 1 second for the countdown
 
   // Updates the countdown every second
