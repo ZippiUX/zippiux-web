@@ -2954,6 +2954,7 @@ body .btn-twentySix:hover:after {
 /*^^^^^^^^^^^^^^^^^^^^^ Footer Two ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .footer-style-two {
   padding: 0 10%;
+  margin-top: 2rem;
 }
 .footer-style-two .top-footer {
   border: 1px solid #e5e5e5;
