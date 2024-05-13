@@ -1,6 +1,6 @@
 # Titles for blog ideas:
 
-## Ett komplett blogginlägg varannan vecka vilket betyder att 17st blogginlägg hinner bli klara tills lansering.
+## Ett komplett blogginlägg varannan vecka vilket betyder att 17st blogginlägg hinner bli klara tills lansering. (pssst det blev inte så)
 
 1. Vad är SEO och SERP?
 2. Hur fungerar backups och säkerhetskopieringar?
