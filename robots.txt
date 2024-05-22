@@ -31,3 +31,5 @@ Disallow: /unused_sections/feedback.html
 Disallow: /unused_sections/rectangular_team.html
 Disallow: /unused_sections/solutions_section.html
 Disallow: /unused_sections/trusted_partners.html
+
+Sitemap: https://zippiux.com/sitemap.xml
