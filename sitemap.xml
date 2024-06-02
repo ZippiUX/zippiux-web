@@ -14,12 +14,6 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://zippiux.com/index.html</loc>
-  <lastmod>2024-05-23T08:44:29+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://zippiux.com/kontakta-oss.html</loc>
   <lastmod>2024-05-23T08:44:29+00:00</lastmod>
   <changefreq>weekly</changefreq>
@@ -130,6 +124,18 @@
 <url>
   <loc>https://zippiux.com/cookiepolicy.html</loc>
   <lastmod>2024-05-23T08:44:29+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://zippiux.com/cookiepolicy.html</loc>
+  <lastmod>2024-06-03T08:44:29+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://zippiux.com/cookiepolicy.html</loc>
+  <lastmod>2024-06-03T08:44:29+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>

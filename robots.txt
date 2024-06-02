@@ -1,35 +1,33 @@
+Sitemap: https://zippiux.com/sitemap.xml
 User-agent: *
 Disallow: /faq.html
 Disallow: /anvandarvillkor.html
 Disallow: /cookiepolicy.html
 Disallow: /integritetspolicy.html
+Disallow: /kontaktpolicy.html
+Disallow: /nyhetsbrevspolicy.html
 Disallow: /karriar.html
 Disallow: /recensioner.html
 Disallow: /portfolio.html
 Disallow: /portfolio-details.html
-Disallow: /metoder/backups.html
-Disallow: /metoder/designprocess.html
-Disallow: /metoder/moderna-tekniker.html
-Disallow: /metoder/projektplanering.html
-Disallow: /metoder/rost-och-videosamtal.html
-Disallow: /error/400.html
-Disallow: /error/401.html
-Disallow: /error/403.html
-Disallow: /error/404.html
-Disallow: /error/408.html
-Disallow: /error/410.html
-Disallow: /error/500.html
-Disallow: /error/501.html
-Disallow: /error/502.html
-Disallow: /error/503.html
-Disallow: /error/504.html
-Disallow: /error/507.html
-Disallow: /error/511.html
-Disallow: /unused_sections/client_feedback_scroll.html
-Disallow: /unused_sections/faq_section.html
-Disallow: /unused_sections/feedback.html
-Disallow: /unused_sections/rectangular_team.html
-Disallow: /unused_sections/solutions_section.html
-Disallow: /unused_sections/trusted_partners.html
+Disallow: /metoder/
+Disallow: /error/
+Disallow: /unused_sections/
 
-Sitemap: https://zippiux.com/sitemap.xml
+# AI crawler bots
+User-agent: CCBot
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+# Not for training, only for user requests 
+User-agent: ChatGPT-User
+Disallow: /
+
+# Marker for disabling Bard and Vertex AI
+User-agent: Google-Extended
+Disallow: /
