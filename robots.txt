@@ -8,6 +8,9 @@ Disallow: /metoder/
 Disallow: /error/
 Disallow: /unused_sections/
 
+# Temporarily block images from being indexed
+Disallow: /images/
+
 # AI crawler bots
 User-agent: CCBot
 Disallow: /
