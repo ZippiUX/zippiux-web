@@ -59,8 +59,8 @@
 :root {
   --text-color: #48494e;
   --heading: #090f32;
-  --prime-one: #ff8c24;
-  --prime-two: #ff733b;
+  --prime-one: #ff733b; /* Used for buttons and maybe more. If a bug comes its probably becuase the on hover and regular color is the same. The correct button hover color should be --heading. This variable was earlier "#ff8c24" */
+  --prime-two: #ff733b; /* Used for buttons and maybe more. If a bug comes its probably becuase the on hover and regular color is the same. The correct button hover color should be --heading. */
   --prime-three: #6a45ff;
   --prime-four: #ffcd45;
   --prime-five: #007bff;
