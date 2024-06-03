@@ -1,1 +1,10 @@
-{"version":3,"sources":["../../fonts/font-awesome/scss/regular.scss","../../fonts/font-awesome/scss/_variables.scss"],"names":[],"mappings":"AAAA;;;;EAAA,CAQA,YAEE,yDAAA,CAGF,WACE,iCAAA,CACA,iBAAA,CACA,eAAA,CACA,kBC8BwB,CD7BxB,oHAAA,CAIF,iBAEE,iCAAA,CACA,eAAA","file":"regular.css"}
+{
+  "version": 3,
+  "sources": [
+    "../../assets/fonts/font-awesome/scss/regular.scss",
+    "../../assets/fonts/font-awesome/scss/_variables.scss"
+  ],
+  "names": [],
+  "mappings": "AAAA;;;;EAAA,CAQA,YAEE,yDAAA,CAGF,WACE,iCAAA,CACA,iBAAA,CACA,eAAA,CACA,kBC8BwB,CD7BxB,oHAAA,CAIF,iBAEE,iCAAA,CACA,eAAA",
+  "file": "regular.css"
+}

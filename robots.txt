@@ -4,7 +4,8 @@ Disallow: /karriar.html
 Disallow: /recensioner.html
 Disallow: /portfolio.html
 Disallow: /portfolio-details.html
-Disallow: /metoder/
+Disallow: /metod/
+Disallow: /portfolio/
 Disallow: /error/
 Disallow: /unused_sections/
 

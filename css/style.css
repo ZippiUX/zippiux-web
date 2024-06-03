@@ -11,10 +11,10 @@
 * Importing necessary  Styles.
 **/
 /*----- Fonts ----*/
-@import url('../fonts/recoleta/stylesheet.css');
-@import url('../fonts/gordita/stylesheet.css');
-@import url('../fonts/eustache/stylesheet.css');
-@import url('../fonts/noteworthy/style.css');
+@import url('../assets/fonts/recoleta/stylesheet.css');
+@import url('../assets/fonts/gordita/stylesheet.css');
+@import url('../assets/fonts/eustache/stylesheet.css');
+@import url('../assets/fonts/noteworthy/style.css');
 /*----Bootstrap css ----- */
 @import url('../vendor/bootstrap/css/bootstrap.min.css');
 /*---- Navbar Css------*/
@@ -22,9 +22,9 @@
 /*----Framework css-----*/
 @import url('framework.css');
 /*----- Bootstrap Icons ----------*/
-@import url('../fonts/bootstrap-icons/font-css.css');
+@import url('../assets/fonts/bootstrap-icons/font-css.css');
 /*---- Font Awesome Icons -------*/
-@import url('../fonts/font-awesome/css/all.min.css');
+@import url('../assets/fonts/font-awesome/css/all.min.css');
 /*----------- Fancybox css -------*/
 @import url('../vendor/fancybox/dist/jquery.fancybox.min.css');
 /*----------- Slick Slider -------*/
