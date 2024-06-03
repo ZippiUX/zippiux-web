@@ -1,11 +1,5 @@
 Sitemap: https://zippiux.com/sitemap.xml
 User-agent: *
-Disallow: /faq.html
-Disallow: /anvandarvillkor.html
-Disallow: /cookiepolicy.html
-Disallow: /integritetspolicy.html
-Disallow: /kontaktpolicy.html
-Disallow: /nyhetsbrevspolicy.html
 Disallow: /karriar.html
 Disallow: /recensioner.html
 Disallow: /portfolio.html
