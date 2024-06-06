@@ -1,6 +1,5 @@
 Sitemap: https://zippiux.com/sitemap.xml
 User-agent: *
-Disallow: /karriar
 Disallow: /recensioner
 Disallow: /cases
 Disallow: /metod/
