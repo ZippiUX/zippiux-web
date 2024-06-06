@@ -1,16 +1,16 @@
 Sitemap: https://zippiux.com/sitemap.xml
 User-agent: *
-Disallow: /karriar.html
-Disallow: /recensioner.html
-Disallow: /portfolio.html
-Disallow: /portfolio-details.html
+Disallow: /karriar
+Disallow: /recensioner
+Disallow: /cases
 Disallow: /metod/
-Disallow: /portfolio/
+Disallow: /case/
 Disallow: /error/
-Disallow: /unused_sections/
+Disallow: /assets/unused_sections/
 
 # Temporarily block images from being indexed
 Disallow: /images/
+Disallow: /assets/images/
 
 # AI crawler bots
 User-agent: CCBot
