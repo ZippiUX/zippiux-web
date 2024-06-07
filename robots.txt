@@ -11,6 +11,9 @@ Disallow: /assets/unused_sections/
 Disallow: /images/
 Disallow: /assets/images/
 
+# Prevent email protection url to be indexed
+Disallow: /cdn-cgi/l/email-protection
+
 # AI crawler bots
 User-agent: CCBot
 Disallow: /
