@@ -7,9 +7,8 @@ Disallow: /case/
 Disallow: /error/
 Disallow: /assets/unused_sections/
 
-# Temporarily block images from being indexed
-Disallow: /images/
-Disallow: /assets/images/
+# Temporarily block assets from being indexed
+Disallow: /assets/
 
 # Prevent email protection url to be indexed
 Disallow: /cdn-cgi/l/email-protection
